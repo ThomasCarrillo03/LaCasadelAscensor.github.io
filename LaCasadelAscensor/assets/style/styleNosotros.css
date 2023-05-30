@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: #CECFC9;
+}
+
+/*Inicia la nav bar y header---------------------------------------------------*/
+.header{
+    background-color:#EFEFEF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 20%;
+}
+
+.log{
+    cursor: pointer;
+}
+
+.log img {
+    height: 100px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.log img:hover{
+    transform: scale(1.2);
+}
+
+.navLinks{
+    list-style-type: none;
+}
+
+.navLinks li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navLinks li:hover{
+    transform: scale(1.1);
+}
+
+.navLinks a{
+    font-size: 700;
+    color: #0A3143;
+    text-decoration: none;
+}
+
+.navLinks li a:hover{
+    color: #3ca3d3;
+}
+/*termina Navbar*/
+
+/*Empieza el cuerpo*/
+.video{
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+}
+
+.textBox{
+    background-color: #CECFC9;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.textBox h2{
+    color: #051c27;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.textBox p{
+    color: #0A3143;
+    margin-bottom: 20px;
+}
+
+.textBox2{
+    background-color: #5e6266;
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.textBox2 h2{
+    color: #EFEFEF;
+    margin-bottom: 5px;
+    font-size: 35px;
+    padding-top: 175px;
+}
+
+.textBox2 p{
+    color: #CECFC9;
+    margin-bottom: 5px;
+}
+
+.textBox2 img{
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+    padding: 0px;
+}
+
+.mapa{
+    width: 100%;
+    max-width: 2000px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mapa h2{
+    color: #051c27;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.mapa figure {
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+    padding: 0px;
+}
+
+.mapa p{
+    color: #0A3143;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 85px;
+}
+
+
+/*Inicia Footer*/
+.piePagina{
+    width: 100%;
+    background-color: #0A3143;
+}
+.piePagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.piePagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piePagina .grupo1 .box figure img{
+    width: 250px;
+}
+
+.piePagina .grupo1 .box h3{
+    color: #EFEFEF;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.piePagina .grupo1 .box h4{
+    color: #EFEFEF;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.piePagina .grupo1 .box p{
+    color: #CECFC9;
+    margin-bottom: 10px;
+}
+
+.piePagina .grupo1 .redSocial a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #EFEFEF;
+    margin-right: 1opx;
+    background-color: #051c27;
+    text-align: center;
+    transition: all 300ms ease
+}
+
+.piePagina .grupo1 .redSocial a:hover{
+    color: #3ca3d3;
+}
+
+.piePagina .grupo2{
+    background-color: #051c27;
+    padding: 15px 10px;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+.piePagina .grupo2 small{
+    font-size: 10px;
+}
+
+/*Termina Footer*/
